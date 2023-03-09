@@ -37,6 +37,9 @@ Route::put('/listings/{listing}', [ListingController::class, 'update']);
 // Delete listing
 Route::delete('/listings/{listing}', [ListingController::class, 'destroy']);
 
+
+// About expense calculator
+
 // Comomon name:
 // index:   show all
 // show:    show single
